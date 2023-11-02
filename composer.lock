@@ -449,16 +449,16 @@
         },
         {
             "name": "chrisreedio/socialment",
-            "version": "v3.3.0",
+            "version": "dev-extension-providers",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/socialment.git",
-                "reference": "5043b50a57751dc56935486f3877c996f2d0354f"
+                "reference": "d4f8a78d5ad2cb603d71ddf70b140b5cf9cecf22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/socialment/zipball/5043b50a57751dc56935486f3877c996f2d0354f",
-                "reference": "5043b50a57751dc56935486f3877c996f2d0354f",
+                "url": "https://api.github.com/repos/chrisreedio/socialment/zipball/d4f8a78d5ad2cb603d71ddf70b140b5cf9cecf22",
+                "reference": "d4f8a78d5ad2cb603d71ddf70b140b5cf9cecf22",
                 "shasum": ""
             },
             "require": {
@@ -531,7 +531,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-02T04:34:01+00:00"
+            "time": "2023-11-02T17:01:21+00:00"
         },
         {
             "name": "chrisreedio/socialment-bastion-azure",
@@ -539,12 +539,12 @@
             "dist": {
                 "type": "path",
                 "url": "/home/chris/dev/packages/composer/socialment-bastion-azure",
-                "reference": "805d475bdc513a42f74cd07de167fe353ed5040e"
+                "reference": "f04e2bbdd73eddf7dc11e28a452358f56376457b"
             },
             "require": {
                 "chrisreedio/bastion": "dev-dev",
                 "chrisreedio/laravel-azure-graph": "dev-dev",
-                "chrisreedio/socialment": "^3.3",
+                "chrisreedio/socialment": "dev-extension-providers",
                 "filament/filament": "^3.0",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1",
