@@ -539,7 +539,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/chris/dev/packages/composer/socialment-bastion-azure",
-                "reference": "f21fac9198e3840a8fc353ba6b09f443c9f64906"
+                "reference": "0deec23183122168c64a18552b8654efd32964f4"
             },
             "require": {
                 "chrisreedio/bastion": "dev-dev",
