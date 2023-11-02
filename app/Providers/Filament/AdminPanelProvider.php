@@ -36,7 +36,8 @@ class AdminPanelProvider extends PanelProvider
                 Pages\Dashboard::class,
             ])
             ->plugins([
-                \ChrisReedIO\Socialment\SocialmentPlugin::make(),
+                \ChrisReedIO\Socialment\SocialmentPlugin::make()
+                    ->registerProvider('azure', 'fab-microsoft', 'Azure Active Directory'),
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
