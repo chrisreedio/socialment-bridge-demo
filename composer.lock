@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "676629167ffebb3d80c639d1c7ea205f",
+    "content-hash": "fce17524b09803d9031fddc04fc0bba0",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -214,16 +214,10 @@
         {
             "name": "chrisreedio/bastion",
             "version": "dev-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chrisreedio/bastion.git",
-                "reference": "23644eac20010ec256d712ab81e997628c9770da"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/23644eac20010ec256d712ab81e997628c9770da",
-                "reference": "23644eac20010ec256d712ab81e997628c9770da",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/chris/dev/packages/composer/bastion",
+                "reference": "c3c484940e604278a42a68f2a1bf0440f61f25d4"
             },
             "require": {
                 "chrisreedio/filament-policy-generator": "dev-dev",
@@ -263,7 +257,28 @@
                     "ChrisReedIO\\Bastion\\Database\\Factories\\": "database/factories/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "ChrisReedIO\\Bastion\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "vendor/bin/pest"
+                ],
+                "test-coverage": [
+                    "vendor/bin/pest --coverage"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -285,13 +300,9 @@
                 "issues": "https://github.com/chrisreedio/bastion/issues",
                 "source": "https://github.com/chrisreedio/bastion"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/chrisreedio",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-11-02T18:38:54+00:00"
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "chrisreedio/filament-policy-generator",
@@ -539,7 +550,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/chris/dev/packages/composer/socialment-bastion-azure",
-                "reference": "0deec23183122168c64a18552b8654efd32964f4"
+                "reference": "4b0aa020f1752eb529912840e1b97f414b9eeef5"
             },
             "require": {
                 "chrisreedio/bastion": "dev-dev",

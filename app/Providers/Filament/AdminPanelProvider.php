@@ -36,7 +36,8 @@ class AdminPanelProvider extends PanelProvider
                 Pages\Dashboard::class,
             ])
             ->plugins([
-                \ChrisReedIO\Bastion\BastionPlugin::make(),
+                \ChrisReedIO\Bastion\BastionPlugin::make()
+                    ->superAdminRole('Developer'),
                 \ChrisReedIO\Socialment\SocialmentPlugin::make()
                     ->registerProvider('azure', 'fab-microsoft', 'Azure Active Directory'),
             ])

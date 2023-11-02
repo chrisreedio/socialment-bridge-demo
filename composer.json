@@ -73,6 +73,10 @@
         {
             "type": "path",
             "url": "/home/chris/dev/packages/composer/socialment-bastion-azure"
+        },
+        {
+            "type": "path",
+            "url": "/home/chris/dev/packages/composer/bastion"
         }
     ]
 }
