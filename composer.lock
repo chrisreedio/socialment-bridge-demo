@@ -217,12 +217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/bastion.git",
-                "reference": "c74f98f74af917bc628ecbbbb2362bf448f756dd"
+                "reference": "23644eac20010ec256d712ab81e997628c9770da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/c74f98f74af917bc628ecbbbb2362bf448f756dd",
-                "reference": "c74f98f74af917bc628ecbbbb2362bf448f756dd",
+                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/23644eac20010ec256d712ab81e997628c9770da",
+                "reference": "23644eac20010ec256d712ab81e997628c9770da",
                 "shasum": ""
             },
             "require": {
@@ -291,7 +291,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-02T02:23:24+00:00"
+            "time": "2023-11-02T18:38:54+00:00"
         },
         {
             "name": "chrisreedio/filament-policy-generator",
@@ -539,7 +539,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/chris/dev/packages/composer/socialment-bastion-azure",
-                "reference": "f04e2bbdd73eddf7dc11e28a452358f56376457b"
+                "reference": "f21fac9198e3840a8fc353ba6b09f443c9f64906"
             },
             "require": {
                 "chrisreedio/bastion": "dev-dev",
