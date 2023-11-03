@@ -217,7 +217,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/chris/dev/packages/composer/bastion",
-                "reference": "c3c484940e604278a42a68f2a1bf0440f61f25d4"
+                "reference": "ceeee5c528d60cc6bcfa861cd910247a9fb54285"
             },
             "require": {
                 "chrisreedio/filament-policy-generator": "dev-dev",
@@ -310,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/filament-policy-generator.git",
-                "reference": "7fc0139d2e2f755dcef88664b2314b0e9b63ee37"
+                "reference": "c346d5e787f74a8d600f031620712476c0c7e9c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/7fc0139d2e2f755dcef88664b2314b0e9b63ee37",
-                "reference": "7fc0139d2e2f755dcef88664b2314b0e9b63ee37",
+                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/c346d5e787f74a8d600f031620712476c0c7e9c3",
+                "reference": "c346d5e787f74a8d600f031620712476c0c7e9c3",
                 "shasum": ""
             },
             "require": {
@@ -381,7 +381,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-01T23:40:15+00:00"
+            "time": "2023-11-03T00:06:52+00:00"
         },
         {
             "name": "chrisreedio/laravel-azure-graph",
